@@ -9,7 +9,6 @@ app.use(express.json());
 app.use(express.static('public'));
 app.use(cors());
 
-
 mongoose.connect('mongodb://localhost/shortLink', {useNewUrlParser: true}).then(() => {
     app.use('/link', link);
 
