@@ -2,7 +2,6 @@ const express = require('express');
 const nanoid = require('nanoid');
 const Link = require('../models/Link');
 
-
 const router = express.Router();
 
 router.get('/:id', (req, res) => {
@@ -22,6 +21,5 @@ router.post('/', (req, res) => {
         .then(result => res.send(result.shortURL))
         .catch(error => res.sendStatus(400).send(error));
 });
-
 
 module.exports = router;
