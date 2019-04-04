@@ -1,0 +1,31 @@
+.ShortLink {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.ShortLink input {
+    width: 200px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border: 2px solid #61dafb;
+    text-align: center;
+}
+
+.ShortLink span {
+    font-weight: bold;
+    color: blue;
+}
+
+.ShortLink button {
+    font-weight: bold;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px;
+    width: 100px;
+    height: 20px;
+    background: #61dafb;
+    border: 2px solid #61dafb;
+}
